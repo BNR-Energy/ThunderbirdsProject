@@ -10,6 +10,7 @@
 		</System>
 		<Plc>
 			<Project File="PorjectPanel.xti"/>
+			<Project File="HPU.xti"/>
 		</Plc>
 	</Project>
 </TcSmProject>
