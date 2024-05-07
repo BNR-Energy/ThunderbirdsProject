@@ -1,3 +1,3 @@
 [submodule "HPU"]
 	path = HPU
-	url = git@github.com:rienk-bnr-energy/HPU.git
+	url = git@github.com:BNR-energy/HPU.git
