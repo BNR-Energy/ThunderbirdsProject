@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4026.6">
+  <GVL Name="gProjectHpuIO" Id="{1881defa-aa76-4bdf-940e-d758dfab50da}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	heatRequest		AT %Q*	: BOOL;
+	powerAvailable	AT %I*	: REAL;
+	
+	heater1Status	AT %I*	: BOOL;
+	hoFlow			AT %Q*	: REAL;	
+	
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
