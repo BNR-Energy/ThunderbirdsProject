@@ -1,3 +1,4 @@
 [submodule "HPU"]
 	path = HPU
 	url = git@github.com:BNR-energy/HPU.git
+	branch = master
