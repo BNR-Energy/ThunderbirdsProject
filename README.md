@@ -10,9 +10,11 @@ project.
 # How to submodule
 
 To add a submodule:
+
 	git submodule add git@github.com:BNR-Energy/HPU.git
 
 To get the latest version from the remote (Github):
+
 	git submodule update --remote
 
 To commit and push changes that were made in the submodule use common commands
@@ -25,6 +27,7 @@ Master branch is used in the submodule.
 
 To change the branch of the submodule use the following commands in the root of
 your project:
+
 	git config -f .gitmodules submodule.HPU.branch dev
 	git submodule update --remote
 Checkin and push these changes to the remote.
