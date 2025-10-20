@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# TcXaeShell Solution File, Format Version 11.00
-VisualStudioVersion = 17.7.34302.85
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.36602.28
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{B1E792BE-AA5F-4E3C-8C82-674BF9C0715B}") = "ThunderbirdsProject", "ThunderbirdsProject.tsproj", "{D9CE6933-DBA7-4549-BE52-F358919BCFEE}"
 EndProject
