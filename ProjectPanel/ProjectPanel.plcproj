@@ -8,7 +8,7 @@
     <DownloadApplicationInfo>true</DownloadApplicationInfo>
     <WriteProductVersion>true</WriteProductVersion>
     <GenerateTpy>false</GenerateTpy>
-    <Name>PorjectPanel</Name>
+    <Name>ProjectPanel</Name>
     <ProgramVersion>3.1.4026.1+c9eadab3edd020c56c333d811d5b3c408c2550c8</ProgramVersion>
     <Application>{a9cbc19d-c788-4392-bc22-cc6ab9102813}</Application>
     <TypeSystem>{8c8d3b64-62ad-409b-8cd6-89759648db1d}</TypeSystem>
@@ -51,7 +51,7 @@
     </PlaceholderReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="PorjectPanel.tmc">
+    <None Include="ProjectPanel.tmc">
       <SubType>Content</SubType>
     </None>
   </ItemGroup>

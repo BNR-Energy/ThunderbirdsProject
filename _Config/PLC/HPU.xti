@@ -1,20 +1,9 @@
 <?xml version="1.0"?>
-<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4026.5" ClassName="CNestedPlcProjDef">
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.66" ClassName="CNestedPlcProjDef">
 	<Project GUID="{D50868D0-FECB-4C36-B629-65EB2262DEB0}" Name="HPU" PrjFilePath="..\..\HPU\HPU.plcproj" TmcFilePath="..\..\HPU\HPU.tmc" ReloadTmc="true" AmsPort="852" FileArchiveSettings="#x000e" SymbolicMapping="true">
-		<Instance Id="#x08502040" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{AE06D911-B3A7-59FC-E4CE-7514BB6600D4}">
+		<Instance Id="#x08502040" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="HPU\HPU.tmc" TmcHash="{AE06D911-B3A7-59FC-E4CE-7514BB6600D4}">
 			<Name>HPU Instance</Name>
 			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
-			<Vars VarGrpType="2" AreaNo="1">
-				<Name>PlcTask Outputs</Name>
-				<Var>
-					<Name>gHpuProjectIO.heater1Status</Name>
-					<Type>BOOL</Type>
-				</Var>
-				<Var>
-					<Name>gHpuProjectIO.powerAvailable</Name>
-					<Type>REAL</Type>
-				</Var>
-			</Vars>
 			<Vars VarGrpType="1">
 				<Name>PlcTask Inputs</Name>
 				<Var>
@@ -23,6 +12,17 @@
 				</Var>
 				<Var>
 					<Name>gHpuProjectIO.hoFlow</Name>
+					<Type>REAL</Type>
+				</Var>
+			</Vars>
+			<Vars VarGrpType="2" AreaNo="1">
+				<Name>PlcTask Outputs</Name>
+				<Var>
+					<Name>gHpuProjectIO.heater1Status</Name>
+					<Type>BOOL</Type>
+				</Var>
+				<Var>
+					<Name>gHpuProjectIO.powerAvailable</Name>
 					<Type>REAL</Type>
 				</Var>
 			</Vars>
@@ -44,7 +44,7 @@
 	</Project>
 	<Mappings>
 		<OwnerA Name="HPU Instance">
-			<OwnerB Name="TIPC^PorjectPanel^PorjectPanel Instance">
+			<OwnerB Name="TIPC^ProjectPanel^ProjectPanel Instance">
 				<Link VarA="PlcTask Inputs^gHpuProjectIO.heatRequest" VarB="PlcTask Outputs^gProjectHpuIO.heatRequest"/>
 				<Link VarA="PlcTask Inputs^gHpuProjectIO.hoFlow" VarB="PlcTask Outputs^gProjectHpuIO.hoFlow"/>
 				<Link VarA="PlcTask Outputs^gHpuProjectIO.heater1Status" VarB="PlcTask Inputs^gProjectHpuIO.heater1Status"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4026.5">
+<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.66">
 	<Project ProjectGUID="{D9CE6933-DBA7-4549-BE52-F358919BCFEE}" Target64Bit="true" ShowHideConfigurations="#x6">
 		<System>
 			<Tasks>
@@ -9,8 +9,12 @@
 			</Tasks>
 		</System>
 		<Plc>
-			<Project File="PorjectPanel.xti"/>
+			<Project File="ProjectPanel.xti"/>
 			<Project File="HPU.xti"/>
 		</Plc>
+		<Io/>
 	</Project>
+	<Mappings>
+		<MappingInfo Identifier="{00000000-2001-0850-0020-500840205008}" Id="#x02030010"/>
+	</Mappings>
 </TcSmProject>
