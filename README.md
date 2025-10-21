@@ -41,6 +41,11 @@ your project:
 	git checkout dev
 Checkin and push these changes to the remote.
 
+When cloaning a repository that includes a submodule, the submodule is not
+initialized by default. To get the submodule code run the following command:
+
+	git submodule init
+
 # Repository structure
 
 For a customer appliation a repository is created for development of the
